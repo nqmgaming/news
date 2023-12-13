@@ -5,10 +5,19 @@
              android:layout_height="match_parent"
              tools:context=".ui.fragments.BreakingNewsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/hello_blank_fragment"/>
+            tools:listitem="@layout/item_article"
+            android:id="@+id/breakingNewsRecyclerView"
+            android:clipToPadding="false"
+            android:paddingBottom="50dp"/>
 
+    <ProgressBar
+            android:id="@+id/paginationProgressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_gravity="bottom|center"/>
 </FrameLayout>

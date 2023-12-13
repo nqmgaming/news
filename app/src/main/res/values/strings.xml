@@ -2,4 +2,18 @@
     <string name="app_name">News_MVVM</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="source">Source</string>
+    <string name="Title">Title</string>
+    <string name="PublisthedAt">Published at: 10/10/2023</string>
+    <string name="description">Description</string>
+    <string name="search">Search</string>
+    <string name="breaking_news">Breaking</string>
+    <string name="saved_news">Saved</string>
+    <string name="search_news">Search</string>
+    <string name="github_repository">Github repository</string>
+    <string name="rate_this_app">Rate this app</string>
+    <string name="about_developer">About developer</string>
+    <string name="global_news">Global News</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>

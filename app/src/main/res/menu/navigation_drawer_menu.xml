@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/github_repo"
+        android:icon="@drawable/round_123_24"
+        android:title="@string/github_repository" />
+    <item
+        android:id="@+id/rate_app"
+        android:icon="@drawable/baseline_star_24"
+        android:title="@string/rate_this_app" />
+    <item
+        android:id="@+id/developer"
+        android:icon="@drawable/ic_news"
+        android:title="@string/about_developer" />
 
 </menu>
